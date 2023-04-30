@@ -4,7 +4,7 @@
 
 ## DISCLAIMER
 
-This algorithm sends thousands of requests to the belastingdienst servers over a timespan of ~1h30m. Please note that using this algorithm is at your own risk and the author takes no responsibility for any consequences resulting from the use of this algorithm. 
+This algorithm sends over a thousand requests to the belastingdienst servers over a timespan of ~1h30m. Please note that using this algorithm is at your own risk and the author takes no responsibility for any consequences resulting from the use of this algorithm. 
 
 I recommend reducing the number of samples to minimize the load on the servers. While 1000 samples allow for more detailed analysis of the gradient, in reality the algorithm can converge to a good minima with ~100 samples for most cases.
 
