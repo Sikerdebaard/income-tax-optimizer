@@ -314,7 +314,7 @@ If the algorithm does not converge or the results seem incomplete, it may be nec
 
 ### Step 4: Further optimizations
 
-To achieve even better results, we can run the `scipy.optimizer.minimize` function with the Nelder-Mead method on the top-10 results of the random search. This method can potentially find a slightly better local minimum, resulting in a slightly more favorable tax return. However, it should be noted that the improvement in tax return is usually only a few euros as compared to the random search. 
+To achieve even better results, we can run the `scipy.optimizer.minimize` function with the Nelder-Mead method, using the top-10 results of the random search as the starting parameters. This method can potentially find a slightly better local minimum, resulting in a slightly more favorable tax return. However, it should be noted that the improvement in tax return is usually only a few euros as compared to the random search. 
 
 Running this optimizer may take around 30 minutes to complete.
 
