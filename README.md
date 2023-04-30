@@ -308,7 +308,7 @@ visgrad(sorted_samples, sorted_results, RBFInterpolator, 'RBF Interpolated Gradi
 
 ### Step 3: Repeat if Necessary
 
-If the algorithm does not converge or the results seem incomplete, it may be necessary to run the algorithm again with different random seeds or adjust the number of samples. Additionally, since the algorithm only finds local minima, it is possible that running the algorithm multiple times may lead to finding better global minima.
+If the algorithm does not converge or the results seem incomplete, it may be necessary to run the algorithm again with different random seeds or adjust the number of samples. Additionally, since the algorithm only finds local minima, it is possible that running the algorithm multiple times may lead to finding better local minima.
 
 ### Step 4: Further optimizations
 
