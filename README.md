@@ -294,7 +294,9 @@ visgrad(sorted_samples, sorted_results, NearestNDInterpolator, 'NN Interpolated 
 visgrad(sorted_samples, sorted_results, RBFInterpolator, 'RBF Interpolated Gradient', enabled_params, {'epsilon': 2})
 ```
 
+#### Gradient
 
+Below we can see the gradient resulting from the random sampling after interpolation. The heatmap shows the gradient in different areas of the parameter space, with blue indicating lower values and red indicating higher values. We can clearly see some local minima in what appears to be two dark blue lines forming. However, we should keep in mind that this is only an approximation and there may be other minima in the parameter space that were not discovered by the algorithm. Additionally, we can also see that some areas might be undersampled and the interpolation might not be accurate in those regions. Therefore, caution should be exercised when interpreting the gradient heatmap.
     
 ![png](images/output_9_0.png)
     
