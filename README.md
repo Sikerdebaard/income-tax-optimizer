@@ -65,6 +65,8 @@ You will need to set the input parameters for box1 and box3. These can be found 
 
 Next you will need to enter these input parameters in the `config` dictionary located in the Python script. Specifically, you will need to update the `input_params` dictionary with the correct IDs for each input field. You can do this by inspecting the HTML source code for the input fields.
 
+Below you will find the correct values for the 2022 tax returns.
+
 
 ```python
 # config params to change when the belastingdienst page is changed
