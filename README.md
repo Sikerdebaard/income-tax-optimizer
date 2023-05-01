@@ -12,6 +12,11 @@ Furthermore, please be aware that the algorithm may not find the global minimum 
 
 If someone wishes to develop this algorithm into a tool, please contact the author, [Sikerdebaard](https://github.com/Sikerdebaard), who is available on a freelance basis.
 
+
+## LICENSE
+This program is licensed under the MIT License with a “Commons Clause” License Condition v1.0 added on top to prevent commercial use. Please refer to the [LICENSE](LICENSE) file for more details.
+
+
 ## 1: Introduction
 
 In this document, we will describe an algorithm to optimize tax savings in the Dutch tax system. The algorithm makes use of a Python script that automates the process of optimizing tax savings by perturbing input parameters for box1 and box3 and calculating the gradient of the function with respect to each input parameter. The script generates a random vector of values that are sampled from a uniform distribution to perturb the input parameters.
