@@ -1,4 +1,4 @@
-# Optimizing Income Tax Returns in the Netherlands for 2022 by Analyzing its Gradient
+# Optimizing Joint Posts on the Income Tax Returns in the Netherlands for 2022 by Analyzing its Gradient
 
 ![Image of the page verdelen on the belastingdienst website](images/verdelen.jpg)
 
